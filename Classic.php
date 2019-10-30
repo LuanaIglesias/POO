@@ -25,10 +25,7 @@ class Classic extends Cuenta{
       parent::acreditar($montoNuevo);
     }
 
-    public function cobrar(int $cargoCuenta){
-        $cargoCuenta = 100;
-        $this->balance= $balance - $cargoCuenta;
-    }
+  
 
 
 
